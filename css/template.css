@@ -1,0 +1,583 @@
+body{
+
+}
+ li:active, li:hover{
+	text-decoration: underline white !important;
+	background-color: transparent !important;
+	
+}
+.activeslide{
+    z-index:99;
+    position: 
+}
+#menusup a {
+	color:white
+}
+#menusup {
+    z-index: 100;
+    width: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	position: absolute;
+}
+#btn_derecha{
+    padding-top: 18px;
+}
+#superior{
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    float: none;
+    position: relative;
+	padding-bottom:5px;
+}
+
+#top1,#top2,#container,#pasos,#vuelos,.centrar{
+    margin: 0 auto;
+    float: none;
+        padding: 0px;
+}
+#logos{
+    padding: 0px;
+}
+
+
+
+
+#copy{
+    text-align: center;
+    padding-top: 20px;
+}
+#paginacion{
+	    padding-bottom: 10px;
+}
+#pasos a{
+    color:#aeb1b3;
+}
+#patrocinadores {
+        border: 1px solid #aeb1b3;
+    padding: 10px;
+}
+
+.seleccionar input{
+        margin-top: 30px;
+    width: 100%;
+    text-align: center;
+}
+#filtros{
+    padding: 0px;
+}
+#pasajeros{
+        padding: 0px;
+    margin-top: 15px;
+}
+.horarios input{
+    margin-top: 20px;
+}
+#tipovuelo{
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.form-control{
+        padding: 6px 6px !important;
+}
+.horarios,.horaida,.horavuelta{
+    padding: 0px;
+    margin: 0px;
+}
+.vuelo label{
+        font-weight: 400;
+            padding: 0px;
+    margin: 0px;
+}
+.precio{
+        font-size: 20px;
+    font-weight: bold;
+        padding-top: 10px;
+}
+a:hover{
+    background: none !important;
+}
+.blanco{
+    color:white;
+}
+#top1 {
+    height: 55px;
+    border-bottom: 1px solid white;
+}
+#pasos{
+	text-align:center;
+	margin:0 auto;
+	font-size: 14px;
+    font-weight: bold;
+    color:#aeb1b3;
+}
+#restaurantes,#hoteles,#actividades{
+    text-align: center;
+        padding: 30px;
+}
+
+#pasos i{
+    float: left;
+    padding-top: 0px;
+    padding-left: 0px;
+    /* BORDER: 1PX SOLID; */
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    background: #aeb1b3;
+    color: white;
+}
+.pasoactivo i{
+    float: left;
+    padding-top: 0px;
+    padding-left: 0px;
+    /* BORDER: 1PX SOLID; */
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    background: #015fad !important;
+    color: white;
+    text-align: center;
+}
+#pasos a{
+float: left;
+    padding: 0px;
+    margin: 0px;
+    padding-left: 15px;
+    padding-right: 20px;
+	text-align:left;
+}
+.vuelo{
+    background: #aeb1b3;
+    border: 1px solid #aeb1b3;
+    border-radius: 5px;
+	margin-bottom: 35px;
+	padding-top: 25px;
+    padding-bottom: 25px;
+}
+.botones{
+text-align:center;
+padding: 0px;
+margin-left: 52px;
+
+}
+.horavuelta{
+    padding-top: 25px;
+}
+.pasoactivo{
+border-bottom: 5px solid #015fad !important;
+color:#015fad;
+    text-align: left;
+}
+.pasoactivo a{
+    color: #015fad !important;
+}
+#pasos li{
+        border-bottom: 5px solid #aeb1b3;
+        min-height: 45px;
+            margin-left: 25px;
+                min-width: 195px;
+}
+#footer{
+    color:#aeb1b3;
+	    padding-top: 40px;
+}
+#footer a {
+    color: #5d5d60;
+}
+
+@media (max-width: 600px) {
+    .horavuelta{
+        padding: 0px;
+    }
+    .botones{
+        margin: 0px;
+        padding: 0px;
+    }
+    .horarios{
+        text-align: center;
+        font-size: 13px;
+    }
+}
+
+
+
+
+
+
+.pasoactivo{
+border-bottom: 5px solid blue;
+    text-align: left;
+}
+#top1 {
+    height: 55px;
+    border-bottom: 1px solid white;
+}
+.paquete img{
+    width:100%;
+}
+.paquete{
+margin-top: 35px;
+color:white;
+}
+.nombrepaquete{
+background:#434a54;
+}
+.nombrepaquete p{
+margin:0px;
+}
+
+.imagenpaquete,.descpaquete,.nombrepaquete{
+    margin: 0px;
+    padding: 0px;
+}
+.img-responsive{
+	margin: 0 auto;
+}
+.descpaquete{
+display:flex;
+background:#00649f;
+
+}
+.descripcion{
+background:#00649f;
+}
+.descripcion p{
+padding-top: 10px;
+}
+.precio_boleto{
+	font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.precio_boleto p{
+float:left;
+    padding-top: 17px;
+}
+.precio{
+	background:green;
+	padding:0px;
+    align-items: center;
+    display: flex;
+}
+.precio p{
+float:left;
+    padding-top: 17px;
+}
+.precio .dolares {
+    padding-right: 8px;
+        font-size: 24px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+    margin: 0px;
+    color: white;
+    float: right;
+}
+
+.final {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    padding-left: 4px;
+}
+.signo{
+    font-size: 22px;
+    color: white;
+    padding-left: 8px;
+}
+
+.precio .dolares {
+    padding-right: 8px;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+    margin: 0px;
+    color: white;
+    float: right;
+}
+#logos img{
+    margin:0px;
+    padding: 0px;
+}
+#buscador {
+        float: none;
+    margin: 0 auto;
+    z-index: 500;
+    position: absolute;
+    top: 60%;
+    left: 9%;
+    padding: 0px;
+    margin: 0px;
+}
+#tipobusqueda{
+	    background: rgba(0, 0, 0, 0.6);
+}
+#tipobusqueda a{
+    font-size: 15px;
+	text-align: center;
+	border-radius: 0px;
+	color: white;
+
+}
+#tipobusqueda .active a,#tipobusqueda a:hover{
+	background: #aeb1b3;
+}
+#tipobusqueda i{
+    
+    font-size: 30px;
+}
+.vermas{
+	top: 35%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    opacity: 0;
+    text-align: center;
+}
+.fantasma{
+	top: 0%;
+	height: 100%;
+    position: absolute;
+    right: 0;
+    left: 0;
+        text-align: center;
+}
+.fantasma:hover .vermas{
+	
+    opacity: 1;
+}
+.vermas a{
+	    color: white;
+    border: 1px solid white;
+    width: 25%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+#buscadorhoteles{
+	width: 100%;
+}
+#colizq{
+	background: #aeb1b3;
+}
+#colder{
+	padding-left: 35px;
+}
+.nombrehotel{
+	
+    text-align: center;
+    background: blue;
+    margin: 0px;
+    color: white;
+
+
+}
+#hoteles{
+    
+}
+.nombrehotel p{
+	margin: 0px;
+}
+.hotel{
+	    border: 1px solid;
+    padding: 0px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.negro{
+	color: black;
+}
+.moneda{
+	margin: 0px;
+    padding-top: 15px;
+}
+.preciomoneda{
+	display: flex;
+        margin-top: -10px;
+}
+.disponibles{
+	    text-align: center;
+    float: none;
+    margin: 0 auto;
+    border-top: 1px solid;
+    font-weight: 100;
+    color: #aeb1b3;
+}
+
+.desde{
+    font-size: 8px;
+    padding-top: 5px;
+    font-weight: bold;
+}
+.valorhotel{
+    font-size: 35px;
+    font-weight: bold;
+    margin: 0px;
+}
+#menu ul{
+        float: right;
+}
+#perfil{
+    padding: 0px;
+}
+#social form{
+    text-align: right;
+    padding-right: 0px;
+    margin-right: 0px;
+}
+.navbar-inverse,.navbar .container-fluid{
+    background-color: transparent; !important;
+    padding: 0px !important;
+    margin: 0px !important;
+        background-image: none !important;
+
+}
+#item_perfil {
+    padding-top: 4px;
+}
+#perfil li a, #menu li a {
+    position: relative;
+    display: block;
+    padding: 10px 4px !important;
+    font-size: 10px;
+}adsdasdasd
+#buscador_menu_top {
+    background-color: transparent;
+    border: 0px;
+}
+#social{
+    padding-right: 0px;
+    margin-right: 0px;
+}
+#social a {
+    padding-right: 6px;
+}
+#row2 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#menu {
+    padding-top: 20px;
+        margin-right: 0px;
+    padding-right: 0px;
+}
+
+.imgac{
+        max-height: 60px;
+        overflow: hidden;
+}
+#acordeones .active{
+        max-height: 100%;
+}
+.underline{
+        text-decoration: underline;
+}
+#exampleSlider .descslide{
+        z-index: 500;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    text-align: center;
+    color:white;
+}
+
+
+@media (max-width: 768px) {
+  #menusup{
+    position: relative;
+}
+#perfil ul{
+    display: inline-flex;
+}
+#social{
+    width: 50%;
+    float: right;
+}
+#perfil{
+    width: 50%;
+    float: left;
+}
+.navbar-form .input-group,#perfil .dropdown{
+    display: none;
+}
+#slider{
+    position: inherit;
+
+}
+#menu ul {
+    float: left; 
+    width: 100%;
+    padding: 0px;
+}
+#logos {
+    padding: 0px;
+    width: 50%;
+    float: left;
+}
+.navbar-form{
+box-shadow: none;
+margin-top: 0px;
+}
+.navbar-nav {
+    margin: 5px -15px;
+}
+#menu {
+    padding-top: 15px;
+    margin-right: 0px;
+    padding-right: 5px;
+}
+#buscador{
+    position: relative;
+    float: none;
+    margin: 0 auto;
+    left: 0%;
+    padding: 20px;
+    padding-top: 0px;
+    margin: 0px;
+}
+#slideshow{
+        margin-bottom: -10px;
+}
+#exampleSlider .descslide {
+    z-index: 500;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    text-align: center;
+    color: white;
+}
+#restaurantes,#hoteles,#actividades{
+    width: 100%;
+    text-align: center;
+    padding: 0px 45px 0px 45px;
+
+}
+#titulo {
+    width: 50%;
+    float: left;
+    padding-left: 8%;
+}
+.descripcion {
+    padding: 30px;
+}
+.precio{
+    padding: 20px;
+}
+.nombrepaquete{
+        text-align: center;
+}
+#btn_derecha {
+    padding-top: 18px;
+    float: right;
+    margin-right: 50px;
+    margin-right: 4%;
+}
+}
